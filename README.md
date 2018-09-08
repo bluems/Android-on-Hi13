@@ -46,9 +46,7 @@ http://chuwi-hi13-install-ubuntu.blogspot.com/2017/06/how-to-install-android-on-
 ### Second, Type below cmd
 ```
 sudo mount /dev/mmcblk1p1 /mnt
-mkdir EFI
-mkdir EFI/boot
-cd EFI/boot
+cd /mnt
 cp -R This-repository-files .
 ```
 Finished to install rEFInd!
@@ -79,3 +77,8 @@ e2label /dev/mmcblk1p1 new-name
 
 ## Finally
 Go to your Android. Come on!
+
+## Important!
+My Hi13 has Goodix touch:gdix1001
+so I didn't test gdix1002(I think serial number after 17070001, 17070001 included)
+If your Hi13 is gdix1002, This [thread](https://techtablets.com/forum/topic/updating-bios-and-installing-linux/) may be helpful.
