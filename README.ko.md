@@ -54,9 +54,7 @@ Create: mmcblk1p1 => 100MB(권장)
 터미널은 좌상단 케노니컬 로고를 눌러 검색하면 됩니다.
 ```
 sudo mount /dev/mmcblk1p1 /mnt
-mkdir EFI
-mkdir EFI/boot
-cd EFI/boot
+cd /mnt
 cp -R This-repository-files .
 ```
 간단히 rEFInd를 설치했습니다.
@@ -88,3 +86,8 @@ e2label /dev/mmcblk1p1 new-name
 ## Finally
 어서 설치한 안드로이드로 돌아가세요.
 설치를 마쳤으면 돌아가야죠 :)
+
+## 주의사항
+제가 테스트한 Hi13은 Goodix의 gdix1001 터치를 사용합니다.
+아마 17070001을 포함한 이후 모델은 gdix1002를 사용하는 것으로 생각되는데 안타깝게도 저는 그 터치 모델은 테스트를 할 수가 없습니다.
+대신 gdix1002 드라이버를 추가할 수 있는 이 [쓰레드](https://techtablets.com/forum/topic/updating-bios-and-installing-linux/)가 도움이 되었으면 합니다.
