@@ -1,5 +1,6 @@
 How to install Android on CHUWI Hi13
 ====================================
+Korean : [README.ko.md](README.ko.md) <br>
 This repo is solution that installed android on Hi13. <br>
 I want to install only android on Hi13 but many posts say "How to install android with Ubuntu". <br><br>
 Why Ubuntu? I don't want to other linux. <br>
