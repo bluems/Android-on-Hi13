@@ -40,8 +40,7 @@ And follow below guideline.
 ## Install
 
 ### First, Install Android and boot Ubuntu Live.
-It's same this post:
-http://chuwi-hi13-install-ubuntu.blogspot.com/2017/06/how-to-install-android-on-chuwi-hi13.html
+It's same this [post](http://chuwi-hi13-install-ubuntu.blogspot.com/2017/06/how-to-install-android-on-chuwi-hi13.html)
 
 ### Second, Type below cmd
 ```
@@ -79,6 +78,5 @@ e2label /dev/mmcblk1p1 new-name
 Go to your Android. Come on!
 
 ## Important!
-My Hi13 has Goodix touch:gdix1001
-so I didn't test gdix1002(I think serial number after 17070001, 17070001 included)
+My Hi13 has Goodix touch:gdix1001 so I didn't test gdix1002(I think serial number after 17070001, 17070001 included) <br>
 If your Hi13 is gdix1002, This [thread](https://techtablets.com/forum/topic/updating-bios-and-installing-linux/) may be helpful.
