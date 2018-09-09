@@ -75,12 +75,12 @@ menuentry "Android 7.1" {
 네? 설마설마 직접 지은 레이블을 까먹었어요? 
 걱정하지 않아도 됩니다. 찾을 수 있거든요.
 ```
-e2label /dev/mmcblk1p1
+e2label /dev/<your-android-block>
 ```
 아니, 이번엔 갑자기 맘에 안드시나요?
 걱정마세요. 바꾸면 되죠.
 ```
-e2label /dev/mmcblk1p1 new-name
+e2label /dev/<your-android-block> new-name
 ```
 
 ## Finally
