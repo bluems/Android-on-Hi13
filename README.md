@@ -68,11 +68,11 @@ What? you don't remember the name?
 Don't worry.
 you find your android label.
 ```
-e2label /dev/mmcblk1p1
+e2label /dev/<your-android-block>
 ```
 Do you want to change? yes, you can.
 ```
-e2label /dev/mmcblk1p1 new-name
+e2label /dev/<your-android-block> new-name
 ```
 
 ## Finally
